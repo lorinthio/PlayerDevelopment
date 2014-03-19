@@ -2,7 +2,6 @@ name: PlayerDevelopment
 main: me.Lorinth.PlayerDevelopment
 version: 1.0 Beta
 description: A plugin for RPG character development through skill point allocation
-depend: [PlayEffect]
 commands:
     stats:
         description: Views your character statistics
