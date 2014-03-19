@@ -34,6 +34,13 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/LorinthsRpgMobs.jar</systemPath>
 		</dependency>
+        <dependency>
+            <groupId>me.fromgate</groupId>
+            <artifactId>PlayEffect</artifactId>
+            <version>0.3.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/PlayEffect.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
