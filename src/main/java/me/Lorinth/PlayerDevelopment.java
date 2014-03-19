@@ -1030,8 +1030,8 @@ public class PlayerDevelopment extends JavaPlugin implements Listener {
 				see if the player clicked in the result item slot of the anvil inventory
 						 */
                         if (rawSlot == 2) {
-							/*
-					get the current item in the result slot
+                            /*
+                    get the current item in the result slot
 					I think inv.getItem(rawSlot) would be possible too
 							 */
                             ItemStack item = e.getCurrentItem();
