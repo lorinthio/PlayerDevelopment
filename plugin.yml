@@ -1,0 +1,34 @@
+name: PlayerDevelopment
+main: me.Lorinth.PlayerDevelopment
+version: 1.0 Beta
+description: A plugin for RPG character development through skill point allocation
+depend: [PlayEffect]
+commands:
+    stats:
+        description: Views your character statistics
+    addstat:
+        description: Use your skill points to add to your player statistics
+    bindskill:
+        description: Bind a skill to the item in your hand so that you can right click to quick use the skill
+    resetpoints:
+        description: Restart your progression!
+    battlestats:
+        description: View detailed battle enhancements
+    cast:
+        description: Casts a spell, use /bindskill <spell> to an item in your hand
+    spells:
+        description: Lists all the skills available to you
+    passives:
+        description: Views all passives that are on your character
+    giveexp:
+        description: gives the player an amount of exp
+        permission: PlayerDevelop.GiveExp
+permissions:
+    PlayerDevelop.*:
+        description: Gives the player all restricted permissions.
+        children:
+            PlayerDevelop.GiveExp: true
+            
+    PlayerDevelop.GiveExp:
+        description: Allows players to use the /giveexp command
+        default: op
